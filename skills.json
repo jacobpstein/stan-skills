@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "name": "bayesian-workflow",
+      "description": "The Gelman/Vehtari/McElreath Bayesian workflow: iterative model building, fake-data simulation, checking, expansion, and reporting.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "stan-modeling",
+      "description": "Writing Stan programs and fitting them with CmdStanPy/cmdstanr: blocks, types, parameterization, common model patterns, and ArviZ/posterior integration.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "stan-priors",
+      "description": "Prior specification for Stan models: weakly informative defaults, scaling rules, prior predictive checks, tail behavior, and power-scaling sensitivity.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "stan-computation",
+      "description": "Fitting and diagnosing HMC/NUTS in Stan: warmup, chains, ESS/MCSE, divergences, reparameterization, failure modes, and approximate algorithms.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "stan-model-evaluation",
+      "description": "Posterior predictive checks, PSIS-LOO cross-validation, Pareto k, LOO-PIT, model comparison, stacking, and projection predictive selection.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "applied-regression",
+      "description": "Regression and Other Stories in Stan: interpreting coefficients as comparisons, transformations, GLMs, fake-data simulation, poststratification, and causal regression.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "stan-testing",
+      "description": "Statistical modeling as software development: parameter recovery tests, simulation-based calibration, pytest/testthat harnesses for Stan programs, reproducibility.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "r-stan-interfaces",
+      "description": "The R Stan stack: cmdstanr, rstanarm, brms, posterior, bayesplot, loo, priorsense, projpred \u2014 fitting, prior control, prediction, and diagnostics from R.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stan",
+  "description": "Stan skills — Bayesian workflow, modeling, priors, computation, evaluation, applied regression, and testing, informed by Gelman, Vehtari, McElreath et al.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jacob Stein"
+  },
+  "repository": "https://github.com/jacobpstein/stan-skills",
+  "license": "MIT",
+  "keywords": ["stan", "cmdstanpy", "cmdstanr", "bayesian", "bayesian-workflow", "regression", "arviz", "loo", "data-science"]
+}

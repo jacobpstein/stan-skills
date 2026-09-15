@@ -1,0 +1,11 @@
+{
+  "name": "@jacobpstein/stan-skills",
+  "version": "1.0.0",
+  "description": "Stan and Bayesian workflow skills for AI coding assistants",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobpstein/stan-skills.git"
+  },
+  "keywords": ["skills", "claude", "stan", "cmdstanpy", "cmdstanr", "bayesian", "bayesian-workflow", "arviz", "loo"],
+  "license": "MIT"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "stan-skills",
+  "owner": {
+    "name": "Jacob Stein"
+  },
+  "metadata": {
+    "description": "Stan and Bayesian workflow skills for AI coding assistants",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "stan",
+      "description": "Stan plugin: Bayesian workflow, Stan modeling, priors, computation, model evaluation, applied regression, and testing",
+      "source": "./",
+      "skills": [
+        "./skills/bayesian-workflow",
+        "./skills/stan-modeling",
+        "./skills/stan-priors",
+        "./skills/stan-computation",
+        "./skills/stan-model-evaluation",
+        "./skills/applied-regression",
+        "./skills/stan-testing",
+        "./skills/r-stan-interfaces"
+      ]
+    }
+  ]
+}

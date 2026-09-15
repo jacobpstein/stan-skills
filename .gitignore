@@ -1,0 +1,31 @@
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Benchmark generated artifacts
+benchmark/**/results/
+benchmark/**/*.nc
+benchmark/**/*.tar.gz
+benchmark/**/figures/
+benchmark/**/.pixi/
+
+# Local/experimental optimizer tooling
+scripts/optimizer.py
+scripts/prompts.py
+
+# AI
+plans/
+
+# OS
+.DS_Store
+Thumbs.db

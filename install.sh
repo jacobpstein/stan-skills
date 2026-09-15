@@ -320,7 +320,9 @@ main() {
     platforms=("${unique_platforms[@]}")
 
     if [[ ${#skills[@]} -eq 0 ]]; then
-        mapfile -t skills < <(get_all_skills)
+        # portable: macOS ships bash 3.2, which has no mapfile
+        skills=()
+        while IFS= read -r line; do skills+=("$line"); done < <(get_all_skills)
     fi
 
     if [[ ${#skills[@]} -eq 0 ]]; then
